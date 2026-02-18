@@ -5,7 +5,7 @@ A classic Snake game implemented with Qt 5.14.2 (MSVC 2017 64-bit) in C++. This 
 ## Quick Start
 ### Download Executable
 The pre-built executable (Windows 10/11 64-bit, no Qt environment required) is available in the GitHub Release package:  
-?? [SnakeGame_Win64_v1.0.zip](https://github.com/QIUWENJIN110/MyGameCodeCollection/releases/download/SnakeGame/SnakeGame_Win64_v1.0.zip)  
+[SnakeGame_Win64_v1.0.zip](https://github.com/QIUWENJIN110/MyGameCodeCollection/releases/download/SnakeGame/SnakeGame_Win64_v1.0.0.zip)  
 *Compressed package includes: `SnakeGame.exe` (main program) + audio resources + all dependent DLLs (no additional Qt installation needed)*
 
 ### Demo Video
@@ -21,7 +21,7 @@ Watch the complete game gameplay demo: [snake_demo.mp4](demo/snake_demo.mp4) (pr
   - Pineapple (10%): Increases snake length by 3 and score by 30 (prioritizes spawning at the grid center)  
   <img src="demo/1.png" width="300" alt="Food Spawning Demo"> <img src="demo/3.png" width="300" alt="Bomb Item Demo">
 
-- **Adaptive Movement Speed**: The snake’s movement speed gradually increases as its length grows (capped at a playable minimum threshold to avoid overly difficult gameplay), with background music playback rate synced to the game speed for immersive experience.  
+- **Adaptive Movement Speed**: The snakeâ€™s movement speed gradually increases as its length grows (capped at a playable minimum threshold to avoid overly difficult gameplay), with background music playback rate synced to the game speed for immersive experience.  
 
 - **Immersive Audio System**: Integrated looping background music and interactive sound effects (e.g., eating items, collision game over) to enrich auditory feedback and enhance game engagement.
 
@@ -35,4 +35,5 @@ Watch the complete game gameplay demo: [snake_demo.mp4](demo/snake_demo.mp4) (pr
 ### Build from Source
 1. Clone the repository to your local machine:  
    ```bash
+
    git clone https://github.com/QIUWENJIN110/MyGameCodeCollection.git
