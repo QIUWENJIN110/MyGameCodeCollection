@@ -1,0 +1,8 @@
+<RCC>
+    <!-- 注意：这里只写相对于 resources/ 的路径 -->
+  <qresource prefix="/sounds">
+    <file alias="2048_bgm.wav">resources/sounds/2048_bgm.wav</file>
+    <file alias="2048.wav">resources/sounds/2048.wav</file>
+	<file alias="gg.wav">resources/sounds/gg.wav</file>
+  </qresource>
+</RCC>
