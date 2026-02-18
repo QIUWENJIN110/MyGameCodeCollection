@@ -1,58 +1,50 @@
+// game2048.h
 #ifndef GAME2048_H
 #define GAME2048_H
 
-
-#include <QMainWindow>
-#include <QLabel>
+#include <QVector>
 #include <QRandomGenerator>
-#include <QTimer>
-#include <QMessageBox>
-#include <QKeyEvent>
 
-QT_BEGIN_NAMESPACE
-namespace Ui {
-    class Game2048;
-}
-QT_END_NAMESPACE
-
-class Game2048 : public QMainWindow
+class Game2048
 {
-    Q_OBJECT
 
 public:
-    explicit Game2048(QWidget *parent = nullptr);
-    ~Game2048();
+    Game2048();
 
-    void randomPosition(); // 随机地向没有样式的某个label加入样式
-    bool checkGameOver(); // 检查游戏是否结束
-    QString LabelStyleSheet(const QString &text); // 返回对应样式
-    void labelMoveUp(); // label向上移动
-    void labelMoveDown(); // label向下移动
-    void labelMoveLeft(); // label向左移动
-    void labelMoveRight(); // label向右移动
-    void resetGameState(); // 窗口关闭时调用重置
-public slots:
-    void randomInitPosition(); // 初始化生成两个位置
-protected:
-    virtual void keyReleaseEvent(QKeyEvent *event);
+    enum Direction {
+        Up,
+        Down,
+        Left,
+        Right
+    };
+
+    static const int Empty = 0;
+
+    void reset();   // Reset game (initialize with two random tiles)
+    bool move(Direction dir);   // Whether movement/merge succeeded
+    bool isGameOver() const;    // Check if game is over (no empty tiles and no merge possible)
+    QVector<int> getBoard() const { return m_board; }   // Get current board data (16 tiles in 4x4 grid)
+    static QString getStyleName(int value); // Get style name for specific tile value (for UI styling)
 
 private:
-    Ui::Game2048 *ui;
-    QString originalStyleSheet; // 原始label方格样式
-    QString labelStyleSheet_2; // label方格样式
-    QString labelStyleSheet_4;
-    QString labelStyleSheet_8;
-    QString labelStyleSheet_16;
-    QString labelStyleSheet_32;
-    QString labelStyleSheet_64;
-    QString labelStyleSheet_128;
-    QString labelStyleSheet_256;
-    QString labelStyleSheet_512;
-    QString labelStyleSheet_1024;
-    QString labelStyleSheet_2048;
-    QVector<QLabel*> labelVector; // 存储label
-    QFont ft; // 字体
+    QVector<int> m_board;   // 4x4 board stored as 1D array (index 0-15)
+    void spawnRandomTile(); // Spawn random tile (2 or 4, 60% chance for 2)
+
+    // Internal movement logic
+    bool moveUp();    // Move tiles up
+    bool moveDown();  // Move tiles down
+    bool moveLeft();  // Move tiles left
+    bool moveRight(); // Move tiles right
+
+    QVector<int> mergeRow(const QVector<int>& row, bool& merged);   // Merge same values in a row/column
+
+    QVector<int> collapseRow(const QVector<int>& row);  // Remove empty tiles and pad with zeros (clean up row/column)
+
+    bool hasMergeableTiles() const; // Check if there are mergeable adjacent tiles
+
 };
+
+
 
 #endif // GAME2048_H
 
