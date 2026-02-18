@@ -5,11 +5,11 @@ A classic Snake game implemented with Qt 5.14.2 (MSVC 2017 64-bit) in C++. This 
 ## Quick Start
 ### Download Executable
 The pre-built executable (Windows 10/11 64-bit, no Qt environment required) is available in the GitHub Release package:  
-[SnakeGame_Win64_v1.0.zip](https://github.com/QIUWENJIN110/MyGameCodeCollection/releases/download/SnakeGame/SnakeGame_Win64_v1.0.0.zip)  
+[SnakeGame_Win64_v1.0.0.zip](https://github.com/QIUWENJIN110/MyGameCodeCollection/releases/download/SnakeGame/SnakeGame_Win64_v1.0.0.zip)  
 *Compressed package includes: `SnakeGame.exe` (main program) + audio resources + all dependent DLLs (no additional Qt installation needed)*
 
 ### Demo Video
-Watch the complete game gameplay demo: [snake_demo.mp4](demo/snake_demo.mp4) (preview images below show core features)
+Watch the complete game gameplay demo: [SnakeGame_demo.mp4](demo/SnakeGame_demo.mp4) (preview images below show core features)
 
 ## Core Features
 - **Precise Collision Detection**: Detects wall collisions, self-collisions, and item-snake collisions to trigger corresponding game logic (game over on wall/self collision, score/length changes on item pickup).  
@@ -37,3 +37,4 @@ Watch the complete game gameplay demo: [snake_demo.mp4](demo/snake_demo.mp4) (pr
    ```bash
 
    git clone https://github.com/QIUWENJIN110/MyGameCodeCollection.git
+
