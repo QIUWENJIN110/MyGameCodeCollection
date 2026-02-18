@@ -32,5 +32,6 @@ Watch the complete game gameplay demo: [Game2048_Demo.mp4](demo/Game2048_Demo.mp
 1. Clone the repository to your local machine:  
    ```bash
 
-   git clone https://github.com/你的用户名/你的仓库名.git
+   git clone https://github.com/QIUWENJIN110/MyGameCodeCollection.git
+
 
