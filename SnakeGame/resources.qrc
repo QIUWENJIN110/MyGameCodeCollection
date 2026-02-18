@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/images">
+    <!-- 注意：这里只写相对于 resources/ 的路径 -->
+    <file alias="head.svg">resources/images/head.svg</file>
+    <file alias="body.svg">resources/images/body.svg</file>
+    <file alias="tail.svg">resources/images/tail.svg</file>
+    <file alias="apple.svg">resources/images/apple.svg</file>
+	<file alias="pineapple.svg">resources/images/pineapple.svg</file>
+	<file alias="bomb.svg">resources/images/bomb.svg</file>
+	<file alias="splash.jpg">resources/images/splash.jpg</file>
+  </qresource>
+  <qresource prefix="/sounds">
+    <file alias="bgm.wav">resources/sounds/bgm.wav</file>
+    <file alias="eat.wav">resources/sounds/eat.wav</file>
+    <file alias="crash.wav">resources/sounds/crash.wav</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,16 @@
+<!-- Snake Head (Cartoon Style) - 30x30px, Transparent Background -->
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main head shape (rounded circle) -->
+    <ellipse cx="15" cy="15" rx="14" ry="14" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Left eye (white + black pupil) -->
+    <circle cx="22" cy="10" r="3" fill="white"/>
+    <circle cx="23" cy="9" r="1.5" fill="black"/>
+    
+    <!-- Right eye (white + black pupil) -->
+    <circle cx="22" cy="20" r="3" fill="white"/>
+    <circle cx="23" cy="21" r="1.5" fill="black"/>
+    
+    <!-- Mouth (small curve) -->
+    <path d="M25 15 Q27 15 27 17" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+</svg>

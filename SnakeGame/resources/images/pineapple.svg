@@ -1,0 +1,25 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <!-- 菠萝主体 -->
+  <ellipse cx="15" cy="20" rx="12" ry="9" fill="#ffcc00"/>
+  
+  <!-- 菠萝纹理（菱形网格） -->
+  <g fill="#e6b800" opacity="0.7">
+    <!-- 第一行 -->
+    <polygon points="5,15 10,12 15,15 10,18"/>
+    <polygon points="15,15 20,12 25,15 20,18"/>
+    <!-- 第二行 -->
+    <polygon points="8,19 13,16 18,19 13,22"/>
+    <polygon points="18,19 23,16 28,19 23,22"/>
+    <!-- 第三行 -->
+    <polygon points="11,23 16,20 21,23 16,26"/>
+  </g>
+  
+  <!-- 菠萝叶子 -->
+  <g fill="#2d862d">
+    <path d="M15,5 L10,12 L12,10 Z" fill="#339933"/>
+    <path d="M15,5 L18,8 L20,12 Z" fill="#339933"/>
+    <path d="M15,5 L20,6 L18,10 Z" fill="#2d862d"/>
+    <path d="M15,5 L12,6 L10,10 Z" fill="#2d862d"/>
+    <path d="M15,7 L15,12 L13,10 Z" fill="#33cc33"/>
+  </g>
+</svg>

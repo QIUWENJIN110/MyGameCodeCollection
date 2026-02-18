@@ -1,0 +1,9 @@
+<!-- Snake Tail (Cartoon Style) - 30x30px, Transparent Background -->
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <!-- Tail shape (rounded polygon) -->
+    <path d="M15 2 L5 10 L5 20 L15 28 L25 20 L25 10 Z" 
+          fill="#81C784" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Gradient detail (optional, simple for Qt compatibility) -->
+    <circle cx="15" cy="15" r="4" fill="#66BB6A"/>
+</svg>

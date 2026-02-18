@@ -1,0 +1,9 @@
+<!-- Snake Body (Cartoon Style) - 30x30px, Transparent Background -->
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <!-- Body segment (rounded rectangle) -->
+    <rect x="2" y="2" width="26" height="26" rx="8" ry="8" 
+          fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+    
+    <!-- Decorative dot (add cartoon detail) -->
+    <circle cx="15" cy="15" r="3" fill="#4CAF50"/>
+</svg>

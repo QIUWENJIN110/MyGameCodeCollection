@@ -1,0 +1,18 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <!-- 炸弹主体 -->
+  <ellipse cx="15" cy="18" rx="10" ry="8" fill="#333333"/>
+  <ellipse cx="15" cy="18" rx="8" ry="6" fill="#555555"/>
+  
+  <!-- 炸弹引线 -->
+  <path d="M15,10 Q18,5 20,8" stroke="#ffcc00" stroke-width="2" fill="none"/>
+  <path d="M20,8 L22,6" stroke="#ffcc00" stroke-width="1.5" fill="none"/>
+  
+  <!-- 引线火花 -->
+  <circle cx="22" cy="6" r="2" fill="#ff3300"/>
+  <circle cx="23" cy="4" r="1.5" fill="#ff6600"/>
+  <circle cx="21" cy="3" r="1" fill="#ff9900"/>
+  
+  <!-- 炸弹纹理 -->
+  <rect x="10" y="14" width="10" height="6" rx="2" fill="#444444" opacity="0.5"/>
+  <circle cx="15" cy="17" r="2" fill="#222222"/>
+</svg>
