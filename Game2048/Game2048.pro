@@ -16,16 +16,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    game2048.cpp \
-    main.cpp \
-    mainwindow.cpp
+    src/game2048.cpp \
+    src/main.cpp \
+    src/mainwindow.cpp
 
 HEADERS += \
-    game2048.h \
-    mainwindow.h
+    src/game2048.h \
+    src/mainwindow.h
 
 FORMS += \
-    mainwindow.ui
+    src/mainwindow.ui
 
 RESOURCES += \
     resources.qrc
