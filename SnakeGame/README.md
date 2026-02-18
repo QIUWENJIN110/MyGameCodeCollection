@@ -9,7 +9,7 @@ The pre-built executable (Windows 10/11 64-bit, no Qt environment required) is a
 *Compressed package includes: `SnakeGame.exe` (main program) + audio resources + all dependent DLLs (no additional Qt installation needed)*
 
 ### Demo Video
-Watch the complete game gameplay demo: [SnakeGame_demo.mp4](demo/SnakeGame_demo.mp4) (preview images below show core features)
+Watch the complete game gameplay demo: [SnakeGame_Demo.mp4](demo/SnakeGame_Demo.mp4) (preview images below show core features)
 
 ## Core Features
 - **Precise Collision Detection**: Detects wall collisions, self-collisions, and item-snake collisions to trigger corresponding game logic (game over on wall/self collision, score/length changes on item pickup).  
@@ -37,4 +37,5 @@ Watch the complete game gameplay demo: [SnakeGame_demo.mp4](demo/SnakeGame_demo.
    ```bash
 
    git clone https://github.com/QIUWENJIN110/MyGameCodeCollection.git
+
 
