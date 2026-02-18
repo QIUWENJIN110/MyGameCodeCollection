@@ -9,12 +9,13 @@ The pre-built executable (Windows 10/11 64-bit, no Qt environment required) is a
 *Compressed package includes: `2048Game.exe` (main program) + audio resources + all dependent DLLs (no additional Qt installation needed)*
 
 ### Demo Video
-Watch the complete game gameplay demo: [GAME2048_Demo.mp4](demo/GAME2048_Demo.mp4) (preview images below show core features)
+Watch the complete game gameplay demo: [GAME2048_Demo.mp4](demo/Game2048_Demo.mp4) (preview images below show core features)
 
 ## Core Features
 - **Optimized Merge Algorithm**: Precise logic for tile movement and merging across all four directions, ensuring accurate combination of same-numbered bricks and numerical growth up to 2048/4096.  
-  <img src="demo/4.png" width="600" alt="Merge Demo">
-  <img src="demo/1.png" width="300" alt="Tiles Demo"><img src="demo/2.png" width="300" alt="Tiles Demo">
+  <img src="demo/4.png" width="800" alt="Merge Demo">
+  
+  <img src="demo/2.png" width="300" alt="Tiles Demo"><img src="demo/1.png" width="300" alt="Tiles Demo">
 
 - **Immersive Audio Feedback**: Integrated looping background music and interactive merge sound effects, triggering distinct audio cues when bricks merge to enhance game engagement.  
 
@@ -30,4 +31,5 @@ Watch the complete game gameplay demo: [GAME2048_Demo.mp4](demo/GAME2048_Demo.mp
 ## Build from Source
 1. Clone the repository to your local machine:  
    ```bash
+
    git clone https://github.com/你的用户名/你的仓库名.git
