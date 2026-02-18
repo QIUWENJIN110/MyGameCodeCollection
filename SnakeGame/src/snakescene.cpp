@@ -482,7 +482,8 @@ int SnakeScene::calculateCurrentSpeed() const
 {
     // Calculate speed based on snake length
     // Longer snake moves faster, but cannot exceed minimum value
-    int lengthBasedSpeed = INITIAL_SPEED - (m_snake.size() - 3) * SPEED_INCREMENT;
+    int accelerateStep = (m_snake.size() -3) / 3;
+    int lengthBasedSpeed = INITIAL_SPEED - accelerateStep * SPEED_INCREMENT;
     return qMax(lengthBasedSpeed, MIN_SPEED);
 }
 
