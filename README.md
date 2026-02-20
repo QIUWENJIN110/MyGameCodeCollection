@@ -1,6 +1,6 @@
 # MyGameCodeCollection
 
-This repository contains two classic game projects developed in C++ with the Qt framework, showcasing my technical skills in game logic, UI rendering, and event-driven programming. These projects are part of my application portfolio for the MSc Computer Game Technology program at Abertay University.
+This repository contains two classic game projects developed in C++ with the Qt framework, showcasing my technical skills in game logic, UI rendering, and event-driven programming. These projects are part of my application portfolio for the MSc Computer Game Technology program.
 
 ---
 
