@@ -21,10 +21,12 @@ Download from GitHub Releases: [BrickBreaker_Mac_v1.0.0.zip](https://github.com/
 - **Sphere Angle Offset Algorithm**: Dynamic rebound angles based on paddle impact position.  
 
 - **Custom UI**: Real-time score/level display, macOS resolution adapted.  
-  <img src="demo/1.png" width="400" alt="Merge Demo"><img src="demo/2.png" width="400" alt="Merge Demo">
+  <img src="demo/1.png" width="400" alt="Merge Demo">  <img src="demo/2.png" width="400" alt="Merge Demo">
   
 - **Multi-level System**: Progressive difficulty with distinct brick layouts per level.
-  <img src="demo/3.png" width="400" alt="Merge Demo"><img src="demo/4.png" width="400" alt="Merge Demo">
+- 
+  <img src="demo/3.png" width="400" alt="Merge Demo">  <img src="demo/4.png" width="400" alt="Merge Demo">
+  
   <img src="demo/5.png" width="400" alt="Merge Demo">
 
 ## Game Controls (macOS)
