@@ -2,6 +2,14 @@
 This repository contains three classic game projects developed as part of my application portfolio for postgraduate study in Computer Game Technology. The projects cover both Qt (C++) and Unity (C#) development, demonstrating core game development skills across different frameworks.
 
 ## Projects
+- Game2048: Classic 2048 merge-the-tiles mini-game built with Qt (C++), featuring grid matrix logic, real-time UI update, tile merge algorithm, and score calculation system
+  - See [Game2048/README.md](Game2048/README.md) for details.
+- SnakeGame: A classic snake game developed with Qt (C++), integrating different spawn system, 2D collision detection, real-time game loop, snake movement path algorithm, and boundary collision handling
+  - See [SnakeGame/README.md](SnakeGame/README.md) for details.
+- BrickBreaker: A classic brick breaker game built with Unity (C#), integrating Unity Physics Engine, precise collision detection, UI , sphere angle offset algorithm, and multi-level progression system
+  - See [BrickBreaker/README.md](BrickBreaker/README.md) for details.
+
+## Projects
 - **Game2048**: Classic 2048 merge-the-tiles mini-game
   - See [Game2048/README.md](Game2048/README.md) for details.
 
