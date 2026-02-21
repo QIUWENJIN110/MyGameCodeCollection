@@ -9,16 +9,6 @@ This repository contains three classic game projects developed as part of my app
 - BrickBreaker: A classic brick breaker game built with Unity (C#), integrating Unity Physics Engine, precise collision detection, UI , sphere angle offset algorithm, and multi-level progression system
   - See [BrickBreaker/README.md](BrickBreaker/README.md) for details.
 
-## Projects
-- **Game2048**: Classic 2048 merge-the-tiles mini-game
-  - See [Game2048/README.md](Game2048/README.md) for details.
-
-- **SnakeGame**: A classic snake game
-  - See [SnakeGame/README.md](SnakeGame/README.md) for details.
-
-- **BrickBreaker**: A classic brick breaker game
-  - See [BrickBreaker/README.md](BrickBreaker/README.md) for details.
-
 ## Build & Run
 ### For Qt Projects (Game2048 / SnakeGame)
 1. Open the project `.pro` file in Qt Creator (Qt 5.14.2 MSVC2017 64-bit).
