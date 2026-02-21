@@ -24,6 +24,7 @@ Download from GitHub Releases: [BrickBreaker_Mac_v1.0.0.zip](https://github.com/
   <img src="demo/1.png" width="400" alt="Merge Demo">  <img src="demo/2.png" width="400" alt="Merge Demo">
   
 - **Multi-level System**: Progressive difficulty with distinct brick layouts per level.
+- **6-Tier Brick Difficulty**: Bricks categorized into 6 levels (Red → Orange → Yellow → Green → Blue → Gray) with increasing hardness; Gray bricks are unbreakable.
 - 
   <img src="demo/3.png" width="400" alt="Merge Demo">  <img src="demo/4.png" width="400" alt="Merge Demo">
   
