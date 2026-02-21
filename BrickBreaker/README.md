@@ -4,7 +4,7 @@ A classic brick breaker game built with Unity 2022.3.x (C#) for macOS, featuring
 
 ## Quick Start
 ### Pre-built macOS Version
-Download from GitHub Releases: [BrickBreaker_Mac_v1.0.0.zip](https://github.com/QIUWENJIN110/MyGameCodeCollection/releases/download/BrickBreaker/BrickBreaker_Mac_v1.0.0.zip）
+Download from GitHub Releases: [BrickBreaker_Mac_v1.0.0.zip](https://github.com/QIUWENJIN110/MyGameCodeCollection/releases/download/BrickBreaker/BrickBreaker_Mac_v1.0.0.zip)
 *macOS 64-bit, no Unity environment required.*
 
 ### Run in Unity
