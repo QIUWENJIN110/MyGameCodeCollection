@@ -1,0 +1,74 @@
+# ==============================================================================
+# Unity .gitignore (适配Unity 2020+/Windows平台，保证项目可构建)
+# 项目路径：D:\GD\Portfolio\BrickBreaker
+# 核心原则：保留必要构建文件，排除自动生成/临时文件
+# ==============================================================================
+
+# -------------------------- Unity 核心排除项 (必选) --------------------------
+# Unity自动生成的Library目录（包含编译后的资源，本地生成即可）
+/Library/
+# 本地缓存文件
+/obj/
+# Unity编辑器生成的临时文件
+/Temp/
+# Unity的VS解决方案文件（自动生成，无需提交）
+/*.sln
+/*.csproj
+/*.unityproj
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+# Unity的Build目录（打包后的产物，无需提交）
+/Build/
+# Unity的Logs目录（日志文件）
+/Logs/
+# Unity的StreamingAssets目录（如需提交特定资源可注释此行）
+# /StreamingAssets/
+
+# -------------------------- 操作系统/编辑器排除项 --------------------------
+# Windows系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+# macOS系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+# Visual Studio相关临时文件
+.vs/
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+# Git临时文件
+.gitattributes
+.gitignore.local
+.git/
+
+# -------------------------- 保留的关键目录/文件 (无需排除) --------------------------
+# 以下目录/文件是项目构建的核心，已默认不排除，确保提交：
+# 1. Assets/ (项目所有资源：脚本、预制体、场景、材质等)
+# 2. Packages/ (Unity Package Manager包配置，必提交)
+# 3. ProjectSettings/ (项目全局设置，必提交)
+# 4. UserSettings/ (可选：如需同步编辑器个性化设置可注释排除规则，否则建议排除)
+/UserSettings/
+
+# -------------------------- 可选排除项 (根据需求调整) --------------------------
+# 如果你使用Addressables，排除本地构建缓存
+# /Assets/AddressableAssetsData/LocalBuilds/
+# 如果你使用NavMesh烘焙数据，如需本地生成可排除
+# /Assets/NavMesh/
+# 测试相关文件
+/Assets/EditorTests/
+/Assets/Tests/
